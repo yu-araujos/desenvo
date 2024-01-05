@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Icon from "../../Images/logo.svg";
 import useMedia from "../../Hooks/useMedia";
+import { GrMenu, GrClose } from "react-icons/gr";
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
@@ -43,7 +44,7 @@ const Navbar = () => {
                 Entrar em Contato
               </a>
             </button>
-            <input type="checkbox" role="button" aria-label="Display the menu" className="menu lg:hidden" onClick={handleClick}></input>      
+            <button className="lg:hidden me-2" onClick={handleClick}>{click ? <GrClose className="text-white text-5xl"/> : <GrMenu className="text-white text-5xl"/>}</button>   
           </div>
         </nav>
       </div>
