@@ -20,12 +20,12 @@ const Services = () => {
       <div className="xl:ms-52 mt-6 flex gap-10 flex-wrap xl:flex-nowrap">
         <div className="border border-gray mx-auto md:w-[75%] lg:w-[45%] xl:w-[40%] rounded-lg">
           <div className="p-5">
-            <HiOutlineComputerDesktop className="text-white text-7xl rounded-lg mx-auto mb-5" />
-            <h1 className="text-primary font-chillaxMedium text-center text-xl md:text-3xl xl:text-4xl uppercase">
+            <HiOutlineComputerDesktop className="text-white text-6xl rounded-lg mx-auto mb-5" />
+            <h1 className="text-primary font-chillaxMedium text-center text-xl md:text-3xl uppercase">
               Website
             </h1>
             <div className="py-5">
-              <ul className="text-white uppercase font-poppins text-md xl:text-xl">
+              <ul className="text-white uppercase font-poppins text-lg">
                 <li className="p-2 border-b border-secondaryGray flex items-center gap-3">
                   <HiCheck className="text-green-500" /> VALOR QUE CABE NO BOLSO
                 </li>
@@ -53,12 +53,12 @@ const Services = () => {
         </div>
         <div className="border border-gray mx-auto md:w-[75%] lg:w-[45%] xl:w-[40%] rounded-lg">
           <div className="p-5">
-            <HiOutlineSearch className="text-white text-7xl rounded-lg mx-auto mb-5" />
-            <h1 className="text-primary font-chillaxMedium text-center  text-xl md:text-3xl xl:text-4xl uppercase">
+            <HiOutlineSearch className="text-white text-6xl rounded-lg mx-auto mb-5" />
+            <h1 className="text-primary font-chillaxMedium text-center  text-xl md:text-3xl uppercase">
               Otimização de Site
             </h1>
             <div className="py-5">
-              <ul className="text-white uppercase font-poppins text-md md:text-xl">
+              <ul className="text-white uppercase font-poppins text-md md:text-lg">
                 <li className="p-2 border-b border-secondaryGray flex items-center gap-3">
                   <HiCheck className="text-green-500" /> VALOR QUE CABE NO BOLSO
                 </li>
@@ -85,11 +85,11 @@ const Services = () => {
         <div className="border border-gray md:w-[75%] lg:w-[50%] xl:w-[40%] mx-auto rounded-lg ">
           <div className="p-5">
             <HiMiniDevicePhoneMobile className="text-white text-7xl rounded-lg mx-auto mb-5" />
-            <h1 className="text-primary font-chillaxMedium text-center text-xl md:text-3xl xl:text-4xl uppercase">
+            <h1 className="text-primary font-chillaxMedium text-center text-xl md:text-3xl uppercase">
               Posts para Instagram
             </h1>
             <div className="py-5">
-              <ul className="text-white uppercase font-poppins text-md md:text-xl">
+              <ul className="text-white uppercase font-poppins text-md md:text-lg">
                 <li className="p-2 border-b border-secondaryGray flex items-center gap-3">
                   <HiCheck className="text-green-500" /> VALOR QUE CABE NO BOLSO
                 </li>

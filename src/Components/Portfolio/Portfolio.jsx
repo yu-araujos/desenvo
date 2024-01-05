@@ -18,7 +18,7 @@ const Portfolio = () => {
             </Link>
           </div>
         </div>
-        <h1 className="text-white lg:text-[150px] font-chillaxSemibold md:text-9xl text-6xl">
+        <h1 className="text-white lg:text-8xl font-chillaxSemibold md:text-9xl text-6xl">
           Portfólio
         </h1>
       </div>
