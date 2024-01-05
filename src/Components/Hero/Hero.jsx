@@ -30,7 +30,7 @@ const Hero = () => {
             className="hidden xl:block"
           />
           <span>
-            <LuMouse className="text-secondary text-5xl text-center mx-auto lg:mt-10 mt-28 hidden md:block lg:block xl:hidden" />
+            <LuMouse className="text-secondary text-5xl text-center mx-auto lg:mt-10 mt-28 hidden lg:block xl:hidden" />
           </span>
         </div>
       </div>
