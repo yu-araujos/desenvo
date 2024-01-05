@@ -1,0 +1,23 @@
+.btn-contact {
+  border: 2px solid #ffd000;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffd000;
+  padding: 1.25rem 3.125rem;
+  border-radius: 50px;
+  transition: color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+
+  &:hover {
+    color: black;
+    box-shadow: inset 350px 0 0 0px #ffd000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-contact {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+  }
+}

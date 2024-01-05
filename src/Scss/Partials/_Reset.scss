@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+
+@font-face {
+  font-family: Chillax SemiBold;
+  src: url("../Fonts/Chillax-OTF/Chillax-Semibold.otf");
+}
+
+@font-face {
+  font-family: Chillax Medium;
+  src: url("../Fonts/Chillax-OTF/Chillax-Medium.otf");
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5b4ef0;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd000;
+}

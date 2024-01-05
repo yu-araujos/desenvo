@@ -1,0 +1,10 @@
+.cta-about {
+
+  span {
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  &:hover span {
+    transform: translate3d(50%, 0, 0);
+  }
+}
